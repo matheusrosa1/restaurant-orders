@@ -39,3 +39,16 @@ class Dish:
 
     def get_ingredients(self):
         return set(self.recipe.keys())
+
+
+""" dish1 = Dish("Lasanha", 40)
+dish2 = Dish("Lasanha", 40)
+dish1.add_ingredient_dependency(Ingredient("massa de lasanha"), 1)
+dish1.add_ingredient_dependency(Ingredient("queijo mussarela"), 1)
+dish1.add_ingredient_dependency(Ingredient("presunto"), 1)
+print("Restrictions:", dish1.get_restrictions())
+print("Ingredients:", dish1.get_ingredients())
+print(repr(dish1))
+print(hash(dish1))
+print(hash(dish2)) """
+""" dish_error = Dish("Pizza", "a") """
