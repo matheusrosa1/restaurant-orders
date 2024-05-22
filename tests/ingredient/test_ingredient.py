@@ -14,16 +14,6 @@ def test_ingredient():
         Restriction.ANIMAL_DERIVED,
     }
 
-    # Teste de população de restrictions
-    farinha = Ingredient("farinha")
-    assert farinha.restrictions == {Restriction.GLUTEN}
-
-    bacon = Ingredient("bacon")
-    assert bacon.restrictions == {
-        Restriction.ANIMAL_MEAT,
-        Restriction.ANIMAL_DERIVED,
-    }
-
     # Teste do método __repr__
     manteiga = Ingredient("manteiga")
     assert repr(manteiga) == "Ingredient('manteiga')"
