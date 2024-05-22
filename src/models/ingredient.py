@@ -61,3 +61,14 @@ class Ingredient:
 
     def __repr__(self) -> str:
         return f"Ingredient('{self.name}')"
+
+
+""" queijo_mussarela = Ingredient("queijo mussarela")
+
+print("Nome do ingrediente:", queijo_mussarela.name)
+print("Restrições:", queijo_mussarela.restrictions)
+
+teste = Ingredient("teste")
+print("Nome do ingrediente:", teste.name)
+print("Restrições:", teste.restrictions)
+ """
