@@ -34,8 +34,11 @@ class MenuData:
             print(f"Error: File '{self.source_path}' not found.")
 
 
-""" if __name__ == "__main__":
+if __name__ == "__main__":
     menu_data = MenuData("tests/mocks/menu_base_data.csv")
     for dish in menu_data.dishes:
-        print(dish)
-        print(dish.recipe) """
+        print("Dish:", dish)
+        print("Dish recipe:", dish.recipe)
+        print("Dish restrictions:", dish.get_restrictions())
+        print("Dish ingredients:", dish.get_ingredients())
+        print("Dish price", dish.price)
