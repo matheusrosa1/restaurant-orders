@@ -31,16 +31,10 @@ class MenuBuilder:
         for dish in self.menu_data.dishes:
             dish_info = {
                 "dish_name": dish.name,
-                "ingredients": [
-                    ingredient.name for ingredient in dish.get_ingredients()
-                ],
+                "ingredients": dish.get_ingredients(),
                 "price": dish.price,
-                "restrictions": [
-                    restriction.value
-                    for restriction in dish.get_restrictions()
-                ],
+                "restrictions": dish.get_restrictions(),
             }
-
             if (
                 restriction is None
                 or restriction not in dish_info["restrictions"]
@@ -48,3 +42,9 @@ class MenuBuilder:
                 menu.append(dish_info)
 
         return menu
+
+
+"""             if (
+                restriction is None
+                or restriction not in dish_info["restrictions"]
+            ): """
