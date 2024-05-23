@@ -42,9 +42,3 @@ class MenuBuilder:
                 menu.append(dish_info)
 
         return menu
-
-
-"""             if (
-                restriction is None
-                or restriction not in dish_info["restrictions"]
-            ): """
