@@ -50,5 +50,7 @@ print("Restrictions:", dish1.get_restrictions())
 print("Ingredients:", dish1.get_ingredients())
 print(repr(dish1))
 print(hash(dish1))
-print(hash(dish2)) """
-""" dish_error = Dish("Pizza", "a") """
+print(hash(dish2))
+dish_error = Dish("Pizza", "a")
+print("DISH_ERROR:", dish_error)
+ """
