@@ -37,7 +37,7 @@ class MenuBuilder:
             if (
                 restriction is None
                 or restriction not in dish_info["restrictions"]
-            ):
+            ) and self.inventory.check_recipe_availability(dish.recipe):
                 menu.append(dish_info)
 
         return menu
