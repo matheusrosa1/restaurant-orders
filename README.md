@@ -92,7 +92,5 @@ Licença [MIT](https://github.com/matheusrosa1/restaurant-orders/?tab=MIT-1-ov-f
 
 ## Contato
 
-Para mais informações, entre em contato com os mantenedores do projeto:
-
 - Linkedin: [Matheus Rosa](https://www.linkedin.com/in/matheus-rosa-2a0652201/)
 - E-mail: matheusrosa.dev@gmail.com
